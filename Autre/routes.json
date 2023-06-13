@@ -1,0 +1,16 @@
+{
+    "routes": [
+        {
+            "path": "/",
+            "controller": "PersonnageController",
+            "action": "getAllPersonnages",
+            "params": []
+        },
+        {
+            "path": "play",
+            "controller": "PersonnageController",
+            "action": "faireBagarre",
+            "params": []
+        }
+    ]
+}
